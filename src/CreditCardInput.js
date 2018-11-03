@@ -164,7 +164,7 @@ export default class CreditCardInput extends Component {
           horizontal={false}
           keyboardShouldPersistTaps="never"
           scrollEnabled={allowScroll}
-          showsHorizontalScrollIndicator={false}
+          showsHorizontalScrollIndicator={true}
           style={s.form}>
           <CCInput {...this._inputProps("number")}
             keyboardType="numeric"
